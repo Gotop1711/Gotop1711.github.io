@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis 的申請書</title>
+    <!-- ========== BOX ICONS ========== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .portrait {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto;
+            background-color: #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .profile {
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 10px;
+        }
+
+        .qna-section {
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .portrait:hover,
+        .qna-section:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+
+        .question {
+            font-weight: bold;
+        }
+
+        .answer {
+            margin-top: 10px;
+        }
+    </style>
+
+    <style>
+      /* ===== Variables ===== */
+      :root {
+        --header-height: 3rem;
+
+        /* ===== Colors ===== */
+        --title-color: #0B0A0A;
+        --text-color: #403A3A;
+        --text-color-light: #707070;
+        --container-color: #FAFAFA;
+        --container-color-alt: #F0EFEF;
+        --body-color: #FCFCFC;
+
+        /* ===== Font and typography ===== */
+        --h1-font-size: 1.rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.813rem;
+        
+        --font-medium: 500;
+        --font-semi-bold: 600;
+
+        /* ===== Margins ===== */
+        --mb-1: 0.5rem;
+        --mb-2: 1rem;
+        --mb-3: 1.5rem;
+
+        /* ===== Font and typography ===== */
+        --z-tooltip: 10;
+        --z-fixed: 100;
+      }
+
+      /* ===== BASE ===== */
+      *, ::before, ::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-size: var(--normal-font-size);
+        color: var(--text-color);
+      }
+
+      h1, h2, h3, ul, p {
+        margin: 0;
+      }
+
+      h1, h2, h3 {
+        color: var(--title-color);
+        font-weight: var(--font-medium);
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      a {
+        color: var(--text-color);
+        text-decoration: none;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      /* ===== Layout ===== */
+      .bd-container {
+        max-width: 968px;
+        width: calc(100% - 3rem);
+        margin-left: var(--mb-3);
+        margin-right: var(--mb-3);
+      }
+
+      .bd-grid {
+        display: grid;
+        gap: 1.5rem;
+      }
+
+      .profile__address {
+        gap: 1rem;
+      }
+
+      .profile__information {
+        display: flex;
+        align-items: center;
+        font-size: var(--small-font-size);
+      }
+
+      .profile__icon {
+        font-size: 1.2rem;
+        margin-right: 0.25rem;
+      }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img class="portrait" src="./portrait-mine-02-rect.jpg" alt="">
+    <div class="profile">
+      <div class="profile__address bd-grid">
+        <span class="profile__information">
+          <i class='profile__icon bx bx-map'></i>Hualien, Taiwan
+        </span>
+        <span class="profile__information">
+          <i class='profile__icon bx bx-envelope'></i>gotop1711@gmail.com
+        </span>
+        <a href="https://www.linkedin.com/in/jarvis-chen-86b1b3182/" target="_blank" class="profile__information">
+          <i class='profile__icon bx bxl-linkedin-square'></i>Jarvis Chen
+        </a>
+      </div>
+    </div>
+</div>
+
+<main>
+    <div class="qna-section">
+        <div class="question">個人簡介</div>
+        <div class="answer">大家好，我是 Jarvis，目前是自由接案的網頁前端工程師．很高興能參與 WeHelp 的申請，希望接下來能藉由 WeHelp 的訓練，培養自己的後端能力，期望在未來求職上能有更多的選擇．
+我接觸網頁開發的契機是在 2016 下半年時，參加了資策會的「互動式網站 UI / UX 設計師就業養成班」．我非資訊相關科系畢業，是藝術設計背景，英文系畢業．2016 年時，原本只希望參加該課程讓自己能再次接觸設計，進而能從事相關工作．但竟然誤打誤撞接觸了前端，也很幸運的開始了前端的職涯路途．</div>
+    </div>
+    <div class="qna-section">
+        <div class="question">為了成為軟體工程師，做過什麼努力？若有具體作品請分享給我們。</div>
+        <div class="answer">首先，在過去曾參與資策會課程時，上課的內容在下課後持續練習不用說，課程推薦的教材，也都盡量讀過並練習上面提供的範例，最後，期中的個人網頁和期末的小組 project，對那時剛踏入開發領域的我來說，都是次次的考驗跟努力．
+在課程之後，踏入開發領域職場之後，更加瞭解，試著自己動手去查、去理解、去學習，然後動手做，是非常有幫助的過程．所以就漸漸對，國內國外線上資源越來越熟悉，例如資訊平台：Mozilla MDN 文件，Google web.dev, stackoverflow, dev.to, 等等，國內外課程：各大國外 MOOC 平台、udemy、六角學院 等等，使用的工具文件，以及他們的協助社群 (例如 Discord 上的社群)．這些資源的都是過去曾今去查找、理解、學習、練習過的．
+        <hr>
+        具體作品：
+        <ul>
+          <li>
+            <a href="https://www.cakeresume.com/chen-yun-chung" target="_blank">我的作品&履歷</a>
+          </li>
+          <li>
+            <a href="https://codepen.io/collection/Dryvzz" target="_blank">線上課程作品 1</a>
+          </li>
+          <li>
+            <a href="https://codepen.io/collection/DdORWa" target="_blank">線上課程作品 2</a>
+          </li>
+        </ul>
+        </div>
+    </div>
+    <div class="qna-section">
+        <div class="question">如果參與這個訓練，會怎麼安排學習時間？</div>
+        <div class="answer">由於我是自由接案，目前身邊僅有一維護案，所以應該能彈性安排學習時間．
+          <br>
+          希望將學習時間安排在早上 9 點至 12 點，晚上則是 8 點至 11 點．在案件空窗期，則會增加學習時間．
+          <br>
+          由於前端方面的經驗較多，所以會側重後端方面的學習．所以會依照課程安排去調整每週總學習時間．
+        </div>
+    </div>
+    <div class="qna-section">
+        <div class="question">是否有想要加入的公司？為什麼想加入該公司？</div>
+        <div class="answer">
+          <p>目前沒有特定的公司，但希望能加入一家有著良好工作環境的公司．</p>
+          <p>而我認為良好的工作環境，應該是有著良好的溝通、有著良好的工作氛圍．能讓員工在工作上更有動力，也能讓員工在工作上更有成就感．</p>
+        </div>
+    </div>
+    <div class="qna-section">
+        <div class="question">請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</div>
+        <div class="answer">
+          曾經與前公司同事，同樣是前端，發生過摩擦．由於他比我資深，我提出一個剛學習到的技術，認為能實作在我們專案上．
+          <br>
+          但他認為我們不該自己實作，而應該選擇既有套件．而且他藉由這次機會，將對我們合作間的不滿發洩出來．
+          <br>
+          剛收到他回應我的訊息時，我覺得挫折又生氣．
+          <br>
+          但接著我決定理性的回應他對我提出的質疑及批評．事後也認為自己的確有些地方要努力，所以反而更積極的去學習．
+        </div>
+    </div>
+    <div class="qna-section">
+        <div class="question">關於這份申請網頁，分享一個開發時的技術心得。</div>
+        <div class="answer">
+          老實說，原本預計用另一個頁面來呈現這份申請書．但是未即時完成，所以決定用這個頁面來呈現．
+          <br>
+          這個頁面其實是用 ChatGPT 產生的，然後再稍微修改．
+          <br>
+          以下是我使用的 prompts:
+          <br>
+          Please give me a webpage, meeting following requirements:
+          <br>
+          - Having title of "Jarvis 的申請書".<br>
+          - Having portrait and profile area at top.<br>
+          - Having 7 Q&A sections.<br>
+          - Stying with clean design, with some CSS transition.
+        </div>
+    </div>
+    <div class="qna-section">
+        <div class="question">請用簡短兩三句話，描述對你而言，最重要的一項人際交往原則。</div>
+        <div class="answer">
+          忠實、真誠、尊重．
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
