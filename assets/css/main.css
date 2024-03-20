@@ -382,3 +382,13 @@ img {
   bottom: 5rem;
 }
 
+
+/* ===== Media Queries ===== */
+/* For small devices, menu two colums */
+@media screen and (max-width: 320px) {
+}
+
+/* Classes modified for large screen size */
+@media screen and (min-width: 968px) {
+}
+
