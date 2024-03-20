@@ -349,3 +349,10 @@ img {
   margin-right: 0.75rem;
 }
 
+/* ===== Certificate ===== */
+
+.certificate__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
