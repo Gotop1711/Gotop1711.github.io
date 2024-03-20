@@ -386,6 +386,10 @@ img {
 /* ===== Media Queries ===== */
 /* For small devices, menu two colums */
 @media screen and (max-width: 320px) {
+  .nav__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 0.5rem;
+  }
 }
 
 /* Classes modified for large screen size */
