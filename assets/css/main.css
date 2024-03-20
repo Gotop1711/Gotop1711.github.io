@@ -278,14 +278,17 @@ img {
 }
 
 /* ===== Education and Experience ===== */
+.expeirence__content,
 .education__content {
   display: flex;
 }
 
+.experience__time,
 .education__time {
   padding-right: 1rem;
 }
 
+.experience__rounder,
 .education__rounder {
   position: relative;
   display: block;
@@ -296,6 +299,7 @@ img {
   margin-top: 0.25rem;
 }
 
+.experience__line,
 .education__line {
   display: block;
   width: 2px;
@@ -304,14 +308,17 @@ img {
   transform: translate(7px, 0);
 }
 
+.experience__data,
 .education__data {
   gap: 0.5rem;
 }
 
+.experience__title,
 .education__title {
   font-size: var(--h3-font-size);
 }
 
+.experience__company,
 .education__studies {
   font-size: var(--small-font-size);
   color: var(--title-color);
