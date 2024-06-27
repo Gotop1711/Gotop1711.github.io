@@ -581,5 +581,19 @@ img {
   .home__button-mobile {
     display: none;
   }
+
+  .references__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .languages__content {
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 3.5rem;
+  }
+
+  .interests__container {
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 3.5rem;
+  }
 }
 
