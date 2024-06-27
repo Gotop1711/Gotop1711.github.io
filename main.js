@@ -101,7 +101,9 @@ function removeScale(){
 // PDF generated area
 let areaCv = document.getElementById('area-cv');
 
-let resumeButton = document.getElementById('resume-button');
+let resumeButton = isMobileDevice()
+  ? document.getElementById('resume-button-mobile')
+  : document.getElementById('resume-button');
 
 // Html2pdf options
 let opt = {
