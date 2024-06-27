@@ -46,6 +46,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===== Variables Dark Theme ===== */
+body.dark-theme {
+  --title-color: #F0F0F0;
+  --text-color: #D0D0D0;
+  /* --text-color-light: #A0A0A0; */
+  --container-color: #1A1A1A;
+  --container-color-alt: #2A2A2A;
+  --body-color: #121212;
+}
+
 /* ===== Button Dark/Light ===== */
 .change-theme {
   position: absolute;
