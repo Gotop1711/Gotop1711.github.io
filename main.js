@@ -89,12 +89,12 @@ function isMobileDevice() {
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
 function scaleCv(){
-  document.body.classList.add('scale-cv');
+  document.body.classList.add(isMobileDevice() ? 'scale-cv-mobile' : 'scale-cv');
 }
 
 /*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
 function removeScale(){
-  document.body.classList.remove('scale-cv');
+  document.body.classList.remove(isMobileDevice() ? 'scale-cv-mobile' : 'scale-cv');
 }
 
 /*==================== GENERATE PDF ====================*/ 

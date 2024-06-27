@@ -159,6 +159,10 @@ body.scale-cv {
   margin-bottom: var(--mb-1);
 }
 
+body.scale-cv-mobile {
+  width: 360px;
+}
+
 /* ===== Generate PDF button for desktop ===== */
 .generate-pdf {
   display: none;
