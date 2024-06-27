@@ -46,6 +46,20 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===== Button Dark/Light ===== */
+.change-theme {
+  position: absolute;
+  right: 0;
+  top: 2.2rem;
+  display: flex;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.change-theme:hover {
+  color: var(--title-color);
+}
+
 /* ===== scale-cv layout ===== */
 /* To reduce size and enable printing on A4 sheet */
 body.scale-cv {
