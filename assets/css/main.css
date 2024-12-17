@@ -214,6 +214,10 @@ img {
   padding: 1.5rem 0;
 }
 
+.section:not(:first-child) {
+  margin-top: 2rem;
+}
+
 .section-title {
   font-size: var(--h2-font-size);
   color: var(--title-color);
