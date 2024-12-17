@@ -464,6 +464,11 @@ img {
   margin-top: 1rem;
 }
 
+.experience__description {
+  list-style: disc;
+  padding-left: 1rem;
+}
+
 /* ===== Skills and Languages ===== */
 .skills__content,
 .languages__content {
