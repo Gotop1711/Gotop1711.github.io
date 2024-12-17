@@ -507,6 +507,11 @@ img {
   margin-top: 1rem;
 }
 
+.certificate__description {
+  list-style: disc;
+  padding-left: 1rem;
+}
+
 /* ===== References ===== */
 .references_content {
   gap: 0.25rem;
