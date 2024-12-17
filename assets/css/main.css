@@ -503,6 +503,10 @@ img {
   margin-bottom: var(--mb-1);
 }
 
+.certificate__container:not(:nth-child(2)) {
+  margin-top: 1rem;
+}
+
 /* ===== References ===== */
 .references_content {
   gap: 0.25rem;
