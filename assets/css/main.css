@@ -460,6 +460,10 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.experience__container:not(:nth-child(2)) {
+  margin-top: 1rem;
+}
+
 /* ===== Skills and Languages ===== */
 .skills__content,
 .languages__content {
