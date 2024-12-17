@@ -512,21 +512,6 @@ img {
   padding-left: 1rem;
 }
 
-/* ===== References ===== */
-.references_content {
-  gap: 0.25rem;
-}
-.references__subtitle {
-  color: var(--text-color-light);
-}
-.references__subtitle,
-.references_contact {
-  font-size: var(--smaller-font-size);
-}
-.references__title {
-  font-size: var(--h3-font-size);
-}
-
 /* ===== INTERESTS ===== */
 .interests__container {
   grid-template-columns: repeat(3, 1fr);
@@ -626,10 +611,6 @@ img {
 
   .home__button-mobile {
     display: none;
-  }
-
-  .references__container {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .languages__content {
