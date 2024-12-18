@@ -601,7 +601,7 @@ img {
 
   .resume__left,
   .resume__right {
-    padding: 0 1.5rem;
+    padding: 1.5rem;
   }
 
   .generate-pdf {
