@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
+    "watch-style": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/main.bundle.css --watch"
   },
   "keywords": [],
   "author": "gotop1711",
