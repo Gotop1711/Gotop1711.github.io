@@ -51,7 +51,7 @@ html {
 }
 
 /* ===== Variables Dark Theme ===== */
-body.dark-theme {
+.dark-theme {
   --title-color: #F0F0F0;
   --text-color: #D0D0D0;
   /* --text-color-light: #A0A0A0; */
