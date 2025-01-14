@@ -414,7 +414,8 @@ img {
 
 /* ===== Profile ===== */
 .profile__description {
-  text-align: center;
+  letter-spacing: -0.02em;
+  text-align: justify;
 }
 
 /* ===== Education and Experience ===== */
@@ -608,8 +609,7 @@ img {
     display: inline-block;
   }
 
-  .section-title,
-  .profile__description {
+  .section-title {
     text-align: initial;
   }
 
