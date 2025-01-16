@@ -252,7 +252,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, .1);
+  box-shadow: 0 -1px 30px rgba(0, 0, 0, .1);
   transition: .3s;
 }
 
@@ -272,7 +272,7 @@ img {
     width: 100%;
     padding: 2rem 1.5rem;
     background-color: var(--body-color);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
     transition: .3s;
@@ -597,7 +597,7 @@ img {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     background-color: var(--container-color);
-    box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
+    box-shadow: 0 0 15px rgba(13, 12, 12, 0.15);
   }
 
   .resume__left {
