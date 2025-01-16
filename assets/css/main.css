@@ -435,7 +435,7 @@ img {
   display: block;
   width: 16px;
   height: 16px;
-  background-color: var(--text-color-light);
+  background: radial-gradient(circle at top, var(--container-color-alt), var(--text-color-light) 100%);
   border-radius: 50%;
   margin-top: 0.25rem;
 }
@@ -445,7 +445,7 @@ img {
   display: block;
   width: 2px;
   height: 110%;
-  background-color: var(--text-color-light);
+  background: linear-gradient(var(--text-color-light), var(--container-color-alt));
   transform: translate(7px, 0);
 }
 
