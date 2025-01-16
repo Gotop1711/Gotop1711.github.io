@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -627,20 +623,12 @@ video {
   padding-right: 1rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
 }
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .leading-relaxed {
@@ -926,7 +914,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, .1);
+  box-shadow: 0 -1px 30px rgba(0, 0, 0, .1);
   transition: .3s;
 }
 
@@ -947,7 +935,7 @@ img {
     width: 100%;
     padding: 2rem 1.5rem;
     background-color: var(--body-color);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, .1);
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
     transition: .3s;
@@ -1115,7 +1103,7 @@ img {
   display: block;
   width: 16px;
   height: 16px;
-  background-color: var(--text-color-light);
+  background: radial-gradient(circle at top, var(--container-color-alt), var(--text-color-light) 100%);
   border-radius: 50%;
   margin-top: 0.25rem;
 }
@@ -1125,7 +1113,7 @@ img {
   display: block;
   width: 2px;
   height: 110%;
-  background-color: var(--text-color-light);
+  background: linear-gradient(var(--text-color-light), var(--container-color-alt));
   transform: translate(7px, 0);
 }
 
@@ -1156,6 +1144,10 @@ img {
 .experience__description {
   list-style: disc;
   padding-left: 1rem;
+}
+
+.experience__description > li {
+  margin-bottom: 0.25rem;
 }
 
 /* ===== Skills and Languages ===== */
@@ -1280,7 +1272,9 @@ img {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     background-color: var(--container-color);
-    box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
+    box-shadow: 0 0 15px rgba(13, 12, 12, 0.15);
+    border-radius: 15px;
+    overflow: hidden;
   }
 
   .resume__left {
